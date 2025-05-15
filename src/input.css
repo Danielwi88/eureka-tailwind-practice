@@ -1,1 +1,14 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.linear-green-bg {
+  background: #048853;
+  background: linear-gradient(
+    -53deg,
+    rgba(4, 136, 83, 1) 0%,
+    rgba(0, 0, 0, 0.84) 100%
+  );
+}

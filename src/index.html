@@ -2,9 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>start with create-tailwind-app</title>
+
+    <link rel="stylesheet" href="./assets/css/build/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body class="bg-gray-100">
+    <!-- hero section -->
+    <section class="min-h-screen linear-green-bg relative text-white">
+      <!-- backgrounds -->
+      <div class="background">
+        <img
+          src="./assets/images/leftbg-hero.png"
+          alt="right-bg-hero"
+          class="absolute left-0 top-0"
+        />
+        <img
+          src="./assets/images/kananbghero.png"
+          alt="right-bg-hero"
+          class="absolute right-0 bottom-0"
+        />
+      </div>
+
+      <div id="hero" class="relative z-index-10 pl-24 pt-12 pr-24">
+        <!-- navigation bar -->
+        <nav class="flex justify-between items-center">
+          <div id="logo" class="flex items-center gap-2 align-middle">
+            <img src="./assets/images/logo-tree.png" alt="Logo" />
+            <b class="text-[20px]">Rumah Impian</b>
+          </div>
+          <div id="menu">
+            <ul class="flex gap-4 uppercase">
+              <li>Branda</li>
+              <li>Layanan</li>
+              <li>Fitur</li>
+              <li>Kontak</li>
+            </ul>
+          </div>
+          <div id="buttons">
+            <button class="w-[133px] h-[40px] uppercase">Daftar</button>
+            <button
+              class="w-[133px] h-[40px] uppercase bg-white text-[#048853] font-bold"
+            >
+              Masuk
+            </button>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </body>
 </html>
