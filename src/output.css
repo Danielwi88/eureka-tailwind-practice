@@ -365,8 +365,44 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\.\.\/\'\)\] {
+    background-image: url('../');
+  }
+  .bg-\[url\(\'\.\.\/sr\'\)\] {
+    background-image: url('../sr');
+  }
+  .bg-\[url\(\'\.\.\/src\'\)\] {
+    background-image: url('../src');
+  }
+  .bg-\[url\(\'\.\.\/src\/\'\)\] {
+    background-image: url('../src/');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\'\)\] {
+    background-image: url('../src/assets');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\/\'\)\] {
+    background-image: url('../src/assets/');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\/images\'\)\] {
+    background-image: url('../src/assets/images');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\/images\/\'\)\] {
+    background-image: url('../src/assets/images/');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\/images\/Find\'\)\] {
+    background-image: url('../src/assets/images/Find');
+  }
+  .bg-\[url\(\'\.\.\/src\/assets\/images\/FindWide\.png\'\)\] {
+    background-image: url('../src/assets/images/FindWide.png');
+  }
   .bg-\[url\(\'\/assets\/images\/FindWide\.png\'\)\] {
     background-image: url('/assets/images/FindWide.png');
+  }
+  .bg-\[url\(\'src\/assets\/images\/FindWide\.png\'\)\] {
+    background-image: url('src/assets/images/FindWide.png');
   }
   .bg-cover {
     background-size: cover;
