@@ -132,5 +132,100 @@
         </div>
       </div>
     </section>
+
+    <!-- find section -->
+    <section
+      class="h-[729px] bg-[url('/assets/images/FindWide.png')] bg-cover bg-center w-full text-white"
+    >
+      <p class="text-center pt-[122px] font-medium text-[48px]">
+        Temukan Rumah Impianmu
+      </p>
+      <p class="text-center">
+        sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya <br />
+        tersembunyi, dengan ratusan rumah untuk anda
+      </p>
+
+      <!-- find filter -->
+      <div class="flex flex-col items-center justify-center">
+        <div class="group">
+          <div
+            id="top"
+            class="h-[42px] w-[327px] flex justify-between bg-[rgba(255,255,255,0.6)] rounded-tr-lg rounded-tl-lg mt-[50px]"
+          >
+            <button
+              class="w-[80px] h-[42px] bg-[rgba(255,255,255,0.6)] rounded-tl-lg hover group-hover:text-[#048853] transition-colors duration-200"
+            >
+              Jual
+            </button>
+            <button
+              class="w-[80px] h-[42px] hover:text-[#048853] transition-colors-colors duration-200"
+            >
+              sewa
+            </button>
+            <button
+              class="w-[167px] h-[42px] hover:text-[#048853] transition-colors-colors duration-200"
+            >
+              Property Baru
+            </button>
+          </div>
+          <div
+            id="bottom"
+            class="bg-[rgba(255,255,255,0.8)] w-[980px] h-[88px] rounded-bl-lg flex justify-between items-center"
+          >
+            <div class="w-[980px] h-[88px] rounded-bl-lg flex items-center">
+              <select
+                name="type"
+                id="type"
+                class="h-[88px] w-[200px] text-[#048853] bg-transparent pl-10"
+              >
+                <option value="#">Tipe Rumah</option>
+              </select>
+              <select
+                name="range"
+                id="range"
+                class="h-[88px] w-[205px] text-[#048853] pl-10 bg-transparent"
+              >
+                <option value="#">Range Harga</option>
+              </select>
+              <input
+                type="text"
+                class="h-[88px] w-[460px] pl-10 bg-transparent hover:text-[#048853]"
+                name="input"
+                id="input"
+                placeholder="cari berdasarkan lokasi, ID, Property"
+              />
+            </div>
+            <button class="bg-[#048853] w-[135px] h-[88px]">Cari</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="h-[270px] bg-black text-white pt-[105px] px-[93px]">
+      <div class="flex justify-between items-center">
+        <div id="logo" class="flex items-center gap-2">
+          <img
+            src="./assets/images/logo-tree.png"
+            alt="Logo"
+            width="30px"
+            height="30px"
+          />
+          <b class="text-[20px]">Rumah Impian</b>
+        </div>
+        <div id="menu">
+          <ul class="flex gap-4 uppercase font-bold">
+            <li>Beranda</li>
+            <li>Layanan</li>
+            <li>Fitur</li>
+            <li>Kontak</li>
+            <li>Masuk</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center pt-[50px]">
+        Copyright by Web Programming Hack All Right Reserved.
+      </p>
+    </footer>
   </body>
 </html>
